@@ -1,0 +1,32 @@
+---
+layout: base
+navcolor: 'var(--color-dark)'
+navbg: 'var(--color-light)'
+---
+
+<header
+  class="section overflow-hidden"
+  style="--spot-color: var(--color-quaternary); --section-color: var(--color-dark)"
+>
+  <div
+	class="section__inner region"
+	style="--region-space-bottom: var(--space-xl); --region-space-top: var(--space-3xl)"
+  >
+	<div class="wrapper | content relative avatar-content">
+	  <section class="prose | avatar-content-blog__inner">
+		<h1 class="fade-in-bottom">{{ title }}</h1>
+		<p>{{ description }}</p>
+	  </section>
+	  {% include "svg/lene-blog.svg" %}
+	</div>
+  </div>
+
+  {% include 'svg/divider-curve.svg' %}
+</header>
+
+<article class="wrapper region">
+  <ul class="grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
+	{% set postslist = collections["blog_" + page.lang] %} {% for post in postslist %} {%
+	include "partials/blog-loop.njk" %} {% endfor %}
+  </ul>
+</article>

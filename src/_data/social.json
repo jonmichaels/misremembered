@@ -1,0 +1,17 @@
+[
+  {
+    "platform": "mastodon",
+    "url": "https://mastodon.social/@jonmichaels",
+    "icon": "mastodon.svg"
+  },
+  {
+    "platform": "github",
+    "url": "https://github.com/jonmichaels",
+    "icon": "github.svg"
+  },
+  {
+    "platform": "rss",
+    "url": "/feed.xml",
+    "icon": "rss.svg"
+  }
+]

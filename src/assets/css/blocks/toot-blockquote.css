@@ -1,0 +1,46 @@
+.toot-blockquote {
+	font-size: var(--size-step-1);
+	border: .2rem solid;
+	border-radius: 1rem;
+}
+
+.toot-header {
+	display: flex;
+}
+
+.toot-header img {
+	height: 3em;
+}
+
+.toot-header a.toot-profile::after,
+.toot-header a.toot-author-name::after,
+.toot-header a.toot-author-handle::after,
+.toot-footer a.toot-date::after,
+.toot-blockquote a.hashtag::after {
+	display: none;
+}
+
+.toot-author {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	
+}
+
+.toot-author-name {
+	font-weight: bold;
+}
+
+a.toot-author-handle {
+	font-size: var(--size-step-0);
+}
+
+.toot-body img {
+	width: 10em;
+}
+
+.toot-footer a,
+.toot-footer span {
+	font-size: var(--size-step-0);
+}
+

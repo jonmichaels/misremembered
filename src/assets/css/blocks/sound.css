@@ -1,0 +1,20 @@
+.movie-posters {
+	display: flex;
+	flex-flow: row wrap;
+	list-style: none;
+	padding-inline: 0px;
+}
+
+.movie-posters li {
+	padding-right: 25px;
+	padding-bottom: 25px;
+}
+
+.movie-posters img {
+	width: 180px;
+	height: auto;
+}
+
+.vert400 {
+	width: 400px;
+}
