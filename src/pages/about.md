@@ -2,13 +2,11 @@
 title: About
 permalink: /about/index.html
 description: All about the creator of this site
-layout: page
+layout: about
 youtube: true
 ---
 
-<div class="vert400">
 {% imagePlaceholder "./src/assets/images/JM_Thor.jpg", "A headshot of Jon Michaels in a Thor costume", "", "" %}
-</div>
 
 Misremembered is possibly the brain-child of me, Jon Michaels, a long-time sound editor, maker of tacos, and generally tech-minded fellow. I currently reside in Marshfield, MA with my wife, two children, two cats, a dog, and numerous fish.
 
