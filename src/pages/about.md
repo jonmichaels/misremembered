@@ -26,3 +26,7 @@ Discord: [jonmichaels#9614](http://discordapp.com/users/352655177612001284)
 Github: [jonmichaels](https://github.com/jonmichaels)
 IMDB: https://www.imdb.com/name/nm0584391/
 LinkedIn: https://www.linkedin.com/in/jonmichaels74/
+
+## This Website
+
+The site was created using the [Eleventy Excellent](https://github.com/madrilene/eleventy-excellent) starter by [Lene Saile](https://www.lenesaile.com/en/). I use the [Eleventy](https://11ty.dev) static site generator to create the pages, push them to GitHub, and from there host it on [Netlify](https://netlify.com). 
