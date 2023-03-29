@@ -28,7 +28,7 @@ I suspected the mixer was causing the problem. I didn't have that set up on my l
 
 ## The Fix
 
-{% imagePlaceholder "./src/assets/images/posts/mac_network_order.png", "The Network preferences for MacOS showing three connected interfaces: Ethernet, Thunderbolt Ethernet Slot 1, and Wi-Fi", "", "" %}
+{% imagePlaceholder "./src/assets/images/posts/mac_network_order.jpg", "The Network preferences for MacOS showing three connected interfaces: Ethernet, Thunderbolt Ethernet Slot 1, and Wi-Fi", "", "" %}
 
 In System Preferences -> Network, this was my Network order:
 
@@ -50,11 +50,11 @@ In System Preferences -> Network, click on "Thunderbolt Ethernet Slot 1."
 
 On the next page that displays, click the "Details..." button in the upper right corner.
 
-{% imagePlaceholder "./src/assets/images/posts/thunderbolt_ethernet.png", "The Network information on MacOS for a Thunderbolt ethernet adapter. The Details button is in the upper right corner.", "", "" %}
+{% imagePlaceholder "./src/assets/images/posts/thunderbolt_ethernet.jpg", "The Network information on MacOS for a Thunderbolt ethernet adapter. The Details button is in the upper right corner.", "", "" %}
 
 In the window that pops up, click the switch to turn off "Limit IP address tracking" and then click the "OK" button.
 
-{% imagePlaceholder "./src/assets/images/posts/limit_ip_address_tracking.png", "Details of the Thunderbolt ethernet adapter in MacOS Network preferences. The switch to enable or disable Limit IP address tracking is shown.", "", "" %}
+{% imagePlaceholder "./src/assets/images/posts/limit_ip_address_tracking.jpg", "Details of the Thunderbolt ethernet adapter in MacOS Network preferences. The switch to enable or disable Limit IP address tracking is shown.", "", "" %}
 
 Once I did those things, Mail.app worked correctly and I no longer saw the "Content Loading Privately" errors.
 
