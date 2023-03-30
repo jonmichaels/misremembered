@@ -8,5 +8,4 @@ jobs:
     steps:
       - name: Trigger our build webhook on Netlify
         env:
-          TOKEN: ${​{ secrets.NETLIFY_BUILD }​}
-        run: curl -X POST -d {} https://api.netlify.com/build_hooks/${TOKEN}
+        run: curl -X POST -d {} https://api.netlify.com/build_hooks/${​{ secrets.NETLIFY_BUILD }​}
