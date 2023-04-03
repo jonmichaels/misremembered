@@ -13,7 +13,7 @@
   border-radius: var(--border-radius);
   color: var(--color-dark);
   margin-right: var(--gutter);
-  padding: .1rem .4rem;
+  padding: 0.1rem 0.4rem;
 }
 
 .card time {
@@ -35,13 +35,10 @@
   font-size: var(--size-step-3);
 }
 
-
-/*
 .card h2 a,
 .card h3 a {
   text-decoration: none;
 }
-*/
 
 .card:not(.note):hover,
 .card:not(.note):focus-within {
@@ -62,8 +59,6 @@
   position: relative;
 }
 
-
-/*
 .card a:after {
   bottom: 0;
   content: '';
@@ -72,5 +67,3 @@
   right: 0;
   top: 0;
 }
-*/
-
