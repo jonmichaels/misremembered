@@ -9,4 +9,4 @@ steps:
 - name: curl
 uses: wei/curl@v1
 with:
-args: -X POST -d {} https://api.netlify.com/build_hooks/${{ secrets.NETLIFY_BUILD_HOOK }}
+args: -X POST -d {} https://api.netlify.com/build_hooks/${{ secrets.NETLIFY_BUILD }}
