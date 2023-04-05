@@ -3,10 +3,10 @@ on:
   schedule:
     - cron: '0 9 * * *'
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Trigger our build webhook on Netlify
-        env:
-        run: curl -X POST -d {} https://api.netlify.com/build_hooks/${​{ secrets.NETLIFY_BUILD }​}
-        
+curl:
+runs-on: ubuntu-latest
+steps:
+- name: curl
+uses: wei/curl@v1
+with:
+args: -X POST -d {} https://api.netlify.com/build_hooks/${{ secrets.NETLIFY_BUILD_HOOK }}
