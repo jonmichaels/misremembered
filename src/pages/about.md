@@ -2,11 +2,11 @@
 title: About
 permalink: /about/index.html
 description: All about the creator of this site
-layout: about
-youtube: true
+layout: page
+youtube: false
 ---
 
-{% imagePlaceholder "./src/assets/images/JM_Thor.jpg", "A headshot of Jon Michaels in a Thor costume", "", "" %}
+{% halfWidth %}{% imagePlaceholder "./src/assets/images/JM_Thor.jpg", "A headshot of Jon Michaels in a Thor costume" %}{% endhalfWidth %}
 
 Misremembered is possibly the brain-child of me, Jon Michaels, a long-time sound editor, maker of tacos, and generally tech-minded fellow. I currently reside in Marshfield, MA with my wife, two children, two cats, a dog, and numerous fish.
 
@@ -29,4 +29,4 @@ LinkedIn: https://www.linkedin.com/in/jonmichaels74/
 
 ## This Website
 
-The site was created using the [Eleventy Excellent](https://github.com/madrilene/eleventy-excellent) starter by [Lene Saile](https://www.lenesaile.com/en/). I use the [Eleventy](https://11ty.dev) static site generator to create the pages, push them to GitHub, and from there host it on [Netlify](https://netlify.com). 
+The site was created using the [Eleventy Excellent](https://github.com/madrilene/eleventy-excellent) starter by [Lene Saile](https://www.lenesaile.com/en/). I use the [Eleventy](https://11ty.dev) static site generator to create the pages, push them to GitHub, and from there host it on [Netlify](https://netlify.com).

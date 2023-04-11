@@ -29,6 +29,7 @@ const {
 const {
   imageShortcodePlaceholder,
   includeRaw,
+  limitImageWidth,
   liteYoutube,
   stootShortcode,
   tootIdShortcode
@@ -83,6 +84,7 @@ module.exports = eleventyConfig => {
 
   // 	--------------------- Custom shortcodes ---------------------
   eleventyConfig.addNunjucksAsyncShortcode('imagePlaceholder', imageShortcodePlaceholder);
+  eleventyConfig.addPairedShortcode('halfWidth', limitImageWidth);
   eleventyConfig.addShortcode('youtube', liteYoutube);
   eleventyConfig.addShortcode('include_raw', includeRaw);
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`); // current year, stephanie eckles
