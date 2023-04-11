@@ -7,7 +7,7 @@ layout: page
 
 Full credit list on [IMDB](https://www.imdb.com/name/nm0584391/)
 
-<ul class="movie-posters">
+<ul class="movie-posters grid" style="--grid-min-item-size: 10rem;">
 	<li>{% imagePlaceholder "./src/assets/images/movie_poster_thumbs/090_hustle_thumb.jpg", "Hustle" %}</li>
 	<li>{% imagePlaceholder "./src/assets/images/movie_poster_thumbs/089_jupiters_legacy_thumb.jpg", "Jupiter's Legacy" %}</li>
 	<li>{% imagePlaceholder "./src/assets/images/movie_poster_thumbs/088_allen_v_farrow_thumb.jpg", "Allen v. Farrow" %}</li>
