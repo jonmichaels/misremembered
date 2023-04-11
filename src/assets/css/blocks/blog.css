@@ -9,11 +9,14 @@
 .blog h3 {
   font-size: var(--size-step-2);
 }
-.blog img {
-  width: 100%;
-  height: auto;
-}
 
 .blog time {
   font-size: var(--size-step-0);
 }
+
+.blog img {
+  max-inline-size: var(--max-img-width, 100%);
+  block-size: auto;
+}
+
+/* max width image 50% on desktop, 100% on mobile */

@@ -3,12 +3,10 @@ title: Sounds
 permalink: /sounds/index.html
 description: All things sound
 layout: page
-youtube: true
+youtube: false
 ---
 
-<div class="vert400">
-{% imagePlaceholder "./src/assets/images/sound_photos/jon_be_excellent_400.jpg", "Jon Michaels giving a thumbs up while doubled-masked during the mix for Bill & Ted Face the Music. His baseball cap says Bill & Ted Face the Music. His outer mask says Be Excellent to Each Other." %}
-</div>
+{% halfWidth %}{% imagePlaceholder "./src/assets/images/sound_photos/jon_be_excellent_400.jpg", "Jon Michaels giving a thumbs up while doubled-masked during the mix for Bill & Ted Face the Music. His baseball cap says Bill & Ted Face the Music. His outer mask says Be Excellent to Each Other." %}{% endhalfWidth %}
 
 Jon Michaels, Supervising Sound Editor
 Sound Design / DIA & ADR / Mixing
@@ -20,7 +18,7 @@ For more than twenty-five years, I have been working behind the scenes to bring 
 
 ## Latest Projects
 
-<ul class="movie-posters">
+<ul class="movie-posters grid" style="--grid-min-item-size: 10rem;">
 	<li>{% imagePlaceholder "./src/assets/images/movie_poster_thumbs/090_hustle_thumb.jpg", "Hustle" %}</li>
 	<li>{% imagePlaceholder "./src/assets/images/movie_poster_thumbs/089_jupiters_legacy_thumb.jpg", "Jupiter's Legacy" %}</li>
 	<li>{% imagePlaceholder "./src/assets/images/movie_poster_thumbs/088_allen_v_farrow_thumb.jpg", "Allen v. Farrow" %}</li>
