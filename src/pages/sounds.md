@@ -3,7 +3,7 @@ title: Sounds
 permalink: /sounds/index.html
 description: All things sound
 layout: page
-youtube: false
+youtube: true
 ---
 
 {% halfWidth %}{% imagePlaceholder "./src/assets/images/sound_photos/jon_be_excellent_400.jpg", "Jon Michaels giving a thumbs up while doubled-masked during the mix for Bill & Ted Face the Music. His baseball cap says Bill & Ted Face the Music. His outer mask says Be Excellent to Each Other." %}{% endhalfWidth %}
@@ -34,3 +34,7 @@ For more than twenty-five years, I have been working behind the scenes to bring 
 {% imagePlaceholder "./src/assets/images/sound_photos/DH4--2552.jpg", "John Fasal and Jon Michaels smile for the camera during a cement drop sound effects recording session for Live Free or Die Hard. In the background a boom lift holds a cement pillar high in the air.", "Dropping concrete for the destroyed freeway in 'Live Free or Die Hard'" %}
 
 {% imagePlaceholder "./src/assets/images/sound_photos/DSC_3088.jpg", "Jon Michaels using a digital recorder during a gun sound effects recording session for Gangster Squad", "Recording period guns at a shooting range for 'Gangster Squad'" %}
+
+## Videos
+
+{% youtube 'evzRJRdAS2s', 'Recording Car Crash Sound Effects' %}
